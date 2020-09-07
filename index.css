@@ -1,0 +1,61 @@
+.container {
+	display: grid;
+	padding: 1rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: .5rem .5rem;
+	width: 15rem;
+	height: 15rem;
+	margin: 0 auto;
+	margin-top: 5rem;
+	-webkit-box-shadow: 0px 0px 14px -4px rgba(207,207,207,1);
+-moz-box-shadow: 0px 0px 14px -4px rgba(207,207,207,1);
+box-shadow: 0px 0px 14px -4px rgba(207,207,207,1);
+border-radius: 5px;
+}
+
+.container > div {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #dcdcdc;
+	font-size: 2.5rem;
+}
+
+.disable-clicking {
+	pointer-events: none;
+}
+
+.hover:hover {
+	opacity: .7;
+	cursor: pointer;
+}
+
+.container > .style-winning-blocks {
+	background-color: #53bf53;
+	color: white;
+}
+
+.container > .red {
+	background-color: #f74949;
+	color: white;
+}
+
+#new-game {
+	font-family: 'Nunito', sans-serif;
+	display: block;
+    font-size: .9rem;
+    color: white;
+    padding: .8rem 1rem .8rem 1rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    background-color: #48abf9;
+    border: 0;
+    border-radius: 5px;
+    border-bottom: 2px solid #3195e4;
+}
+
+#new-game:hover {
+	cursor: pointer;
+	background-color: #3195e4;
+}
