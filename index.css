@@ -31,14 +31,36 @@ border-radius: 5px;
 	cursor: pointer;
 }
 
-.container > .style-winning-blocks {
+/* red blocks */
+.container > .red {
+	background-color: #f74949;
+	color: white;
+}
+
+/* green blocks */
+.container > .green {
 	background-color: #53bf53;
 	color: white;
 }
 
-.container > .red {
-	background-color: #f74949;
-	color: white;
+#scoring {
+	width: 15rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1rem;
+	text-align: center;
+	color: #58595b;
+	padding-bottom: 1rem;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#player-score {
+	color: #53bf53;
+}
+
+#computer-score {
+	color: #f74949;
 }
 
 #new-game {
